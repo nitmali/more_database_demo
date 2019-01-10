@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+first-datasource:
+  jdbc-url: jdbc:sqlserver://localhost:1433; DatabaseName=SCM102SP2
+  username: sa
+  password: 123456
+  driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+second-datasource:
+  jdbc-url: jdbc:sqlserver://localhost:1433; DatabaseName=SCM102SP2
+  username: sa
+  password: 123456
+  driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
