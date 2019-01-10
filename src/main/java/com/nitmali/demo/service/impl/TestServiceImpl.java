@@ -17,10 +17,10 @@ import javax.annotation.Resource;
 public class TestServiceImpl implements ITestService {
 
     @Resource
-    FirstMapper firstMapper;
+    private FirstMapper firstMapper;
 
     @Resource
-    SecondMapper secondMapper;
+    private SecondMapper secondMapper;
 
     @Override
     public void test() {
